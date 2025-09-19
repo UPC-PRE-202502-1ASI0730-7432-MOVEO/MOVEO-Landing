@@ -6,7 +6,8 @@
     <title>Moveo - Alquiler de autos</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="src/styles/style.css">
-    <script src="src/js/faq.js"></script>
+    <script src="src/js/faq.js" defer></script>
+    <script src="src/js/animations.js" defer></script>
 </head>
 <body>
     <!-- Top Navigation Bar -->
@@ -20,8 +21,16 @@
         <ul class="navbar__navlinks">
             <li><a href="#intro" class="navbar__link">Acerca de</a></li>
             <li><a href="#services" class="navbar__link">Servicios</a></li>
+            <li><a href="#testimonials-section" class="navbar__link">Testimonios</a></li>
             <li><a href="#faq" class="navbar__link">Contáctanos</a></li>
         </ul>
+        <div class="navbar__mobile">
+            <button class="navbar__hamburger" aria-label="Menú">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
         <div class="language-switcher">
             ES
         </div>
@@ -53,6 +62,60 @@
         <p>MOVEO es una plataforma digital que conecta a dueños de autos que quieren generar ingresos con personas que necesitan un vehículo por horas, días o semanas.</p>
     </div>
 </section>
+
+    <!-- Sección de Servicios -->
+    <section class="services" id="services">
+        <div class="services__container">
+            <div class="services__header">
+                <h2 class="services__title">Nuestros Servicios</h2>
+                <p class="services__subtitle">Descubre cómo Moveo transforma la movilidad urbana</p>
+            </div>
+            
+            <div class="services__grid">
+                <!-- Servicio para Arrendatarios -->
+                <div class="service-card">
+                    <div class="service-card__icon">
+                        <img src="src/assets/keys.jpg" alt="Alquiler de autos" class="service-card__img">
+                    </div>
+                    <div class="service-card__content">
+                        <h3 class="service-card__title">Alquila un Auto</h3>
+                        <p class="service-card__description">
+                            Encuentra el vehículo perfecto para tu viaje. Precios más bajos que las agencias tradicionales, 
+                            disponibilidad 24/7 y proceso 100% digital.
+                        </p>
+                        <ul class="service-card__features">
+                            <li>Reserva en menos de 5 minutos</li>
+                            <li>Vehículos verificados y seguros</li>
+                            <li>Precios hasta 40% más bajos</li>
+                            <li>Flexibilidad por horas, días o semanas</li>
+                        </ul>
+                        <a href="#" class="service-card__btn">Buscar Autos</a>
+                    </div>
+                </div>
+
+                <!-- Servicio para Propietarios -->
+                <div class="service-card">
+                    <div class="service-card__icon">
+                        <img src="src/assets/calendario.png" alt="Registrar auto" class="service-card__img">
+                    </div>
+                    <div class="service-card__content">
+                        <h3 class="service-card__title">Registra tu Auto</h3>
+                        <p class="service-card__description">
+                            Convierte tu auto en una fuente de ingresos pasivos. Sin inversión inicial, 
+                            con seguro incluido y soporte completo.
+                        </p>
+                        <ul class="service-card__features">
+                            <li>Registro en solo 3 minutos</li>
+                            <li>Gana hasta 35% más en ingresos</li>
+                            <li>Usuarios verificados y confiables</li>
+                            <li>Seguro y protección total</li>
+                        </ul>
+                        <a href="#" class="service-card__btn">Registrar Auto</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Sección principal tipo zig-zag -->
     <section class="zigzag-section">
@@ -151,7 +214,7 @@
         </p>
     </div>
 
-    <div class="testimonials__grid" id="services">
+    <div class="testimonials__grid">
         <!-- Testimonio 1 -->
         <div class="testimonial-card">
             <div class="testimonial-card__top">
