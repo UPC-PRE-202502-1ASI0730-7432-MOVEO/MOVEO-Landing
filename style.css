@@ -1,0 +1,597 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, button, input, select {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+/* Contenedor flex para logo y links */
+/* Navbar container */
+.navbar__container {
+    display: flex;
+    align-items: space-between;
+    gap: 2rem; /* espacio entre los elementos */
+    padding: 1rem 2rem;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+/* Logo */
+.navbar__logo img {
+    height: 100px; /* Ajusta según tu diseño */
+    width: auto;
+}
+
+/* Links de navegación y language switcher */
+.navbar__navlinks {
+    display: flex;
+    gap: 1.5rem; /* espacio entre links */
+    list-style: none;
+    margin-left: auto;
+    padding: 0;
+    align-items: center;
+}
+
+.navbar__link {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.navbar__link:hover {
+    color: #3a5e5e; /* color Airbnb-style al pasar el cursor */
+}
+
+.language-switcher {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 0.25rem 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.language-switcher:hover {
+    background-color: #f5f5f5;
+}
+
+/*------------------------------------------------------------------------------*/
+
+/* Hero Section */
+.hero {
+    position: relative;
+    height: 80vh; /* altura de la sección */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.hero__background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+
+.hero__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4); /* negro semitransparente */
+    z-index: 2;
+}
+
+
+.hero__content {
+    position: relative;
+    z-index: 3; /* encima del overlay */
+    text-align: center;
+    color: white;
+    max-width: 600px;
+    padding: 1rem;
+}
+
+.hero__content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero__content p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+}
+
+.hero__cta {
+    display: inline-block;
+    padding: 0.75rem 2rem;
+    background-image: linear-gradient(to bottom right, #e9d9c3, #e6b5ae);
+    color: white;
+    text-decoration: none;
+    border-radius: 999px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+/*------------------------------------------------------------------------------*/
+
+/* Bloque independiente: ¿Qué es Moveo? */
+.intro-moveo {
+    background-color: #f5f5f5; /* un fondo suave */
+    padding: 4rem 2rem;        /* espacio arriba/abajo y a los lados */
+    text-align: center;         /* centramos el texto */
+}
+
+.intro-moveo h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: #3A5E5E; /* color principal */
+}
+
+.intro-moveo p {
+    font-size: 1.25rem;
+    max-width: 700px;  /* que no se extienda demasiado */
+    margin: 0 auto;    /* centrado horizontal */
+    line-height: 1.6;
+    color: #333;
+}
+
+/*------------------------------------------------------------------------------*/
+
+.zigzag-section {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    padding: 2rem;
+}
+
+.zigzag-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 4rem;
+    flex-wrap: wrap;
+}
+
+.zigzag-item:nth-child(even) {
+    flex-direction: row-reverse; /* alterna la dirección para zigzag */
+}
+
+.zigzag-content {
+    flex: 1;
+    min-width: 300px;
+}
+
+.zigzag-img {
+    flex: 1;
+    min-width: 300px;
+}
+
+
+.zigzag-img img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+/* Alternar posiciones */
+.zigzag-item:nth-child(even) .zigzag-content {
+    order: 2;
+}
+
+.zigzag-item:nth-child(even) .zigzag-img {
+    order: 1;
+}
+
+/* Botón simple */
+.btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #3a5e5e;
+    color: #fff;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #3a5e5e;
+}
+
+
+/*------------------------------------------------------------------------------*/
+
+/* Nuestro Impacto */
+.impact {
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.impact__header {
+    margin-bottom: 2rem;
+}
+
+.impact__title {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.impact__subtitle {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.impact__grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.impact__card {
+    border: 2px solid #ccc;
+    border-radius: 12px;
+    padding: 2rem;
+    width: 220px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.impact__card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.impact__number {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #3A5E5E;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.impact__text {
+    font-size: 1rem;
+    color: #333;
+}
+
+.impact__cta .btn {
+    padding: 0.75rem 2rem;
+    background-color: #3A5E5E;
+    color: white;
+    text-decoration: none;
+    border-radius: 999px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.impact__cta .btn:hover {
+    background-color: #2b4545;
+}
+/*------------------------------------------------------------------------------*/
+
+/* Sección de Testimonios */
+.testimonials {
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.testimonials__header {
+    margin-bottom: 2.5rem;
+}
+
+.testimonials__title {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.testimonials__subtitle {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.testimonials__grid {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.testimonial-card {
+    border: 2px solid #ccc;
+    border-radius: 12px;
+    padding: 1.5rem;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #fff;
+}
+
+.testimonial-card__top {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    gap: 1rem;
+}
+
+.testimonial-card__img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.testimonial-card__info {
+    text-align: left;
+}
+
+.testimonial-card__name {
+    display: block;
+    font-weight: 600;
+    color: #3A5E5E;
+}
+
+.testimonial-card__role {
+    display: block;
+    font-size: 0.9rem;
+    color: #777;
+}
+
+.testimonial-card__comment {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+.testimonial-card__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.testimonial-card__rating {
+    font-weight: 600;
+    color: #e9d9c3;
+}
+
+.testimonial-card__btn {
+    padding: 0.5rem 1.5rem;
+    background-color: #3A5E5E;
+    color: white;
+    text-decoration: none;
+    border-radius: 999px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.testimonial-card__btn:hover {
+    background-color: #2b4545;
+}
+
+/*------------------------------------------------------------------------------*/
+
+.faq {
+  padding: 3rem 1rem;
+}
+
+.faq__title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.faq__tabs {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.faq__tab {
+  padding: 0.5rem 1.5rem;
+  border: none;
+  border-radius: 999px;
+  background: #eee;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.faq__tab.active,
+.faq__tab:hover {
+  background: #3A5E5E;
+  color: #fff;
+}
+
+.faq__tab-contents {
+  max-width: 800px;
+  margin: 0 auto; /* centra todo */
+}
+
+.faq__tab-content {
+  display: none;
+}
+
+.faq__tab-content.active {
+  display: block;
+}
+
+.faq__item {
+  margin-bottom: 1rem;
+}
+
+.faq__question {
+  width: 100%;
+  padding: 1rem 0;
+  font-weight: 600;
+  cursor: pointer;
+  text-align: left;
+  border: none;
+  border-bottom: 1px solid #ddd; /* línea divisoria */
+  position: relative;
+  font-size: 1.1rem;
+}
+
+.faq__question::after {
+  content: "+";
+  position: absolute;
+  right: 0;
+  font-size: 1.2rem;
+  transition: transform 0.3s;
+}
+
+.faq__question[aria-expanded="true"]::after {
+  content: "-";
+}
+
+.faq__answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease, padding 0.3s ease;
+  padding: 0 0; /* inicia sin padding */
+}
+
+.faq__answer.show {
+  padding: 0.5rem 0;
+}
+
+
+.faq__answer:not([hidden]) {
+  display: block;
+}
+
+.faq__accordion-wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* centra horizontalmente */
+}
+
+.faq__accordion {
+  width: 100%;
+  max-width: 800px; /* ancho máximo de las preguntas */
+}
+
+/*------------------------------------------------------------------------------*/
+
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding: 1rem 2rem;
+}
+
+.footer__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.footer__socials a {
+  margin-right: 1rem;
+}
+
+.footer__socials img {
+  width: 24px;
+  height: 24px;
+  filter: brightness(0) invert(1);
+  transition: filter 0.3s;
+}
+
+.footer__socials a:hover img {
+  filter: brightness(0) invert(0.7);
+}
+
+.footer__links a {
+  margin: 0 0.5rem;
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer__links a:hover {
+  color: #D6B68A; /* color de acento */
+}
+
+.footer__address p,
+.footer__logo-text p {
+  margin: 0;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+/* Responsive: apilar en móviles */
+@media screen and (max-width: 768px) {
+  .footer__content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 0.5rem;
+  }
+
+  .footer__links a {
+    display: block;
+    margin: 0.25rem 0;
+  }
+}
+
+
+/* Responsive: apilar en móviles */
+@media screen and (max-width: 768px) {
+    .faq__accordion-wrapper {
+        flex-direction: column;
+    }
+
+    .faq__title, .faq__accordion {
+        width: 100%;
+    }
+}
+
+
+
+/* Responsive: ajusta las cards en pantallas pequeñas */
+@media screen and (max-width: 768px) {
+    .favorites__list,
+    .cars__list {
+        justify-content: center;
+    }
+
+    .car-card {
+        max-width: 90%;
+        margin-bottom: 2rem;
+    }
+}
+
+/* Responsive: en pantallas pequeñas la tarjeta se centra */
+@media (max-width: 768px) {
+    .hero__content {
+        justify-content: center;
+        padding-left: 0;
+    }
+
+    .search-card {
+        transform: translateX(0);
+        max-width: 90%;
+    }
+
+    .form-row {
+        flex-direction: column;
+    }
+}
