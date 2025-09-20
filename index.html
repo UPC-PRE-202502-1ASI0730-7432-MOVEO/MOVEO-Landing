@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>Moveo - Alquiler de autos</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="styleshee                <p class="testimonial-card__comment" data-i18n="testimonials.carlos.comment">
+                    "Alquilé mi auto solo dos fines de semana al mes y ya cubrí el seguro anual.
+                    ¡Sin moverme de casa! MOVEO me dio tranquilidad, soporte y ganancias reales."
+                </p>
     <link rel="stylesheet" href="src/styles/style.css">
     <script src="src/js/i18n.js" defer></script>
     <script src="src/js/lang-toggle.js" defer></script>
@@ -22,6 +25,7 @@
         </div>
         <ul class="navbar__navlinks">
             <li><a href="#intro" class="navbar__link" data-i18n="nav.about">Acerca de</a></li>
+            <li><a href="#team" class="navbar__link" data-i18n="nav.team">Equipo</a></li>
             <li><a href="#services" class="navbar__link" data-i18n="nav.services">Servicios</a></li>
             <li><a href="#testimonials-section" class="navbar__link" data-i18n="nav.testimonials">Testimonios</a></li>
             <li><a href="#faq" class="navbar__link" data-i18n="nav.contact">Contáctanos</a></li>
@@ -62,6 +66,83 @@
         <div class="intro-moveo-content">
             <h2 data-i18n="intro.title">¿Qué es Moveo?</h2>
             <p data-i18n="intro.description">MOVEO es una plataforma digital que conecta a dueños de autos que quieren generar ingresos con personas que necesitan un vehículo por horas, días o semanas.</p>
+        </div>
+    </section>
+
+    <!-- Sección del Equipo -->
+    <section class="team" id="team">
+        <div class="team__container">
+            <div class="team__header">
+                <h2 class="team__title" data-i18n="team.title">Nuestro Equipo</h2>
+                <p class="team__subtitle" data-i18n="team.subtitle">Conoce a las personas detrás de Moveo</p>
+            </div>
+
+            <div class="team__grid">
+                <!-- Integrante 1 -->
+                <div class="team-member">
+                    <div class="team-member__image">
+                        <img src="src/assets/team-placeholder.jpg" alt="Carlos Alejandro De la cruz Villareal" class="team-member__img">
+                    </div>
+                    <div class="team-member__info">
+                        <h3 class="team-member__name" data-i18n="team.member1.name">Carlos Alejandro De la cruz Villareal</h3>
+                        <p class="team-member__role" data-i18n="team.member1.role">CEO & Fundador</p>
+                        <p class="team-member__code" data-i18n="team.member1.code">U20211c036</p>
+                        <p class="team-member__description" data-i18n="team.member1.description">Lidera la visión estratégica de Moveo y supervisa todas las operaciones de la empresa.</p>
+                    </div>
+                </div>
+
+                <!-- Integrante 2 -->
+                <div class="team-member">
+                    <div class="team-member__image">
+                        <img src="src/assets/team-placeholder.jpg" alt="Franco Gabriel Huang Liu" class="team-member__img">
+                    </div>
+                    <div class="team-member__info">
+                        <h3 class="team-member__name" data-i18n="team.member2.name">Franco Gabriel Huang Liu</h3>
+                        <p class="team-member__role" data-i18n="team.member2.role">CTO</p>
+                        <p class="team-member__code" data-i18n="team.member2.code">U202310345</p>
+                        <p class="team-member__description" data-i18n="team.member2.description">Responsable del desarrollo tecnológico y la arquitectura de la plataforma.</p>
+                    </div>
+                </div>
+
+                <!-- Integrante 3 -->
+                <div class="team-member">
+                    <div class="team-member__image">
+                        <img src="src/assets/team-placeholder.jpg" alt="Gianfranco Luna Morales" class="team-member__img">
+                    </div>
+                    <div class="team-member__info">
+                        <h3 class="team-member__name" data-i18n="team.member3.name">Gianfranco Luna Morales</h3>
+                        <p class="team-member__role" data-i18n="team.member3.role">Director de Producto</p>
+                        <p class="team-member__code" data-i18n="team.member3.code">U201824343</p>
+                        <p class="team-member__description" data-i18n="team.member3.description">Encargado del diseño de experiencia de usuario y desarrollo de nuevas funcionalidades.</p>
+                    </div>
+                </div>
+
+                <!-- Integrante 4 -->
+                <div class="team-member">
+                    <div class="team-member__image">
+                        <img src="src/assets/team-placeholder.jpg" alt="Andreow Jomark Santiago Peña" class="team-member__img">
+                    </div>
+                    <div class="team-member__info">
+                        <h3 class="team-member__name" data-i18n="team.member4.name">Andreow Jomark Santiago Peña</h3>
+                        <p class="team-member__role" data-i18n="team.member4.role">Director de Marketing</p>
+                        <p class="team-member__code" data-i18n="team.member4.code">U202317362</p>
+                        <p class="team-member__description" data-i18n="team.member4.description">Lidera las estrategias de crecimiento y adquisición de usuarios.</p>
+                    </div>
+                </div>
+
+                <!-- Integrante 5 -->
+                <div class="team-member">
+                    <div class="team-member__image">
+                        <img src="src/assets/team-placeholder.jpg" alt="Sebastian Gabriel Zuñiga Calle" class="team-member__img">
+                    </div>
+                    <div class="team-member__info">
+                        <h3 class="team-member__name" data-i18n="team.member5.name">Sebastian Gabriel Zuñiga Calle</h3>
+                        <p class="team-member__role" data-i18n="team.member5.role">Director de Operaciones</p>
+                        <p class="team-member__code" data-i18n="team.member5.code">U20221b479</p>
+                        <p class="team-member__description" data-i18n="team.member5.description">Gestiona las operaciones diarias y la calidad del servicio al cliente.</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -222,8 +303,8 @@
                 <div class="testimonial-card__top">
                     <img src="src/assets/user1.jpg" alt="Usuario 1" class="testimonial-card__img">
                     <div class="testimonial-card__info">
-                        <span class="testimonial-card__name">Carlos R.</span>
-                        <span class="testimonial-card__role">Dueño de Hyundai i10, San Miguel</span>
+                        <span class="testimonial-card__name" data-i18n="testimonials.carlos.name">Carlos R.</span>
+                        <span class="testimonial-card__role" data-i18n="testimonials.carlos.role">Dueño de Hyundai i10, San Miguel</span>
                     </div>
                 </div>
                 <p class="testimonial-card__comment">
@@ -231,8 +312,8 @@
                     ¡Sin moverme de casa! MOVEO me dio tranquilidad, soporte y ganancias reales.”
                 </p>
                 <div class="testimonial-card__bottom">
-                    <span class="testimonial-card__rating">⭐ 5.0</span>
-                    <a href="#" class="testimonial-card__btn">Ver más</a>
+                    <span class="testimonial-card__rating" data-i18n="testimonials.carlos.rating">⭐ 5.0</span>
+                    <a href="#" class="testimonial-card__btn" data-i18n="testimonials.carlos.button">Ver más</a>
                 </div>
             </div>
 
