@@ -1,0 +1,181 @@
+{
+  "nav": {
+    "about": "Acerca de",
+    "services": "Servicios",
+    "testimonials": "Testimonios",
+    "contact": "Contáctanos"
+  },
+
+  "hero": {
+    "title": "Encuentra autos para viajar cómodo",
+    "subtitle": "Un buen lugar para tu viaje comienza en Moveo, con vehículos únicos para todo tipo de destinos.",
+    "button": "Explora ahora"
+  },
+
+  "intro": {
+    "title": "¿Qué es Moveo?",
+    "description": "MOVEO es una plataforma digital que conecta a dueños de autos que quieren generar ingresos con personas que necesitan un vehículo por horas, días o semanas."
+  },
+
+  "services": {
+    "title": "Nuestros Servicios",
+    "subtitle": "Descubre cómo Moveo transforma la movilidad urbana",
+    "rental": {
+      "title": "Alquila un Auto",
+      "description": "Encuentra el vehículo perfecto para tu viaje. Precios más bajos que las agencias tradicionales, disponibilidad 24/7 y proceso 100% digital.",
+      "feature1": "Reserva en menos de 5 minutos",
+      "feature2": "Vehículos verificados y seguros",
+      "feature3": "Precios hasta 40% más bajos",
+      "feature4": "Flexibilidad por horas, días o semanas",
+      "button": "Buscar Autos"
+    },
+    "register": {
+      "title": "Registra tu Auto",
+      "description": "Convierte tu auto en una fuente de ingresos pasivos. Sin inversión inicial, con seguro incluido y soporte completo.",
+      "feature1": "Registro en solo 3 minutos",
+      "feature2": "Gana hasta 35% más en ingresos",
+      "feature3": "Usuarios verificados y confiables",
+      "feature4": "Seguro y protección total",
+      "button": "Registrar Auto"
+    }
+  },
+
+  "zigzag": {
+    "section1": {
+      "title": "Tus necesidades de movilidad resueltas en minutos",
+      "feature1": "Sin inversiones iniciales",
+      "feature2": "Precios más bajos que las agencias tradicionales",
+      "feature3": "Seguridad garantizada para ambas partes",
+      "feature4": "Todo gestionado desde tu celular",
+      "button": "Ver más"
+    },
+    "section2": {
+      "title": "¿Cómo Moveo registra tu auto?",
+      "step1": "Registra tu auto en 3 minutos (marca, modelo, año, fotos, disponibilidad).",
+      "step2": "Define tu precio por hora, día o semana.",
+      "step3": "Recibe solicitudes de arrendatarios verificados",
+      "step4": "Entrega las llaves (con protocolo de seguridad y checklist digital).",
+      "step5": "Gana dinero sin mover un dedo. Nosotros nos encargamos del cobro y la protección.",
+      "button": "Ver más"
+    },
+    "section3": {
+      "title": "Cómo Moveo resuelve tu problema de no tener auto",
+      "step1": "Busca autos cerca de ti por fecha, modelo, precio o características.",
+      "step2": "Filtra por calificaciones, reseñas y disponibilidad.",
+      "step3": "Reserva con un clic y paga de forma segura.",
+      "step4": "Recoge el auto en el lugar acordado (con checklist y fotos de entrega).",
+      "step5": "Devuelve y califica. ¡Listo!",
+      "button": "Ver más"
+    }
+  },
+
+  "impact": {
+    "title": "Nuestro impacto",
+    "stat1": {
+      "number": "+500",
+      "text": "Autos registrados por dueños en Lima Metropolitana"
+    },
+    "stat2": {
+      "number": "+2,000",
+      "text": "reservas completadas con satisfacción mayor a 4.7/5"
+    },
+    "stat3": {
+      "number": "+35%",
+      "text": "de ingresos pasivos promedio para dueños activos"
+    },
+    "stat4": {
+      "number": "-40%",
+      "text": "en costos de alquiler vs agencias tradicionales arrenderas"
+    },
+    "button": "Ver nuestros servicios"
+  },
+
+  "testimonials": {
+    "title": "Nuestros testimonios",
+    "subtitle": "Conoce la experiencia de quienes ya disfrutan de Moveo.",
+    "carlos": {
+      "name": "Carlos R.",
+      "role": "Dueño de Hyundai i10, San Miguel",
+      "comment": "Alquilé mi auto solo dos fines de semana al mes y ya cubrí el seguro anual. ¡Sin moverme de casa! MOVEO me dio tranquilidad, soporte y ganancias reales.",
+      "rating": "⭐ 5.0",
+      "button": "Ver más"
+    },
+    "valeria": {
+      "name": "Valeria M.",
+      "role": "Arredentaria, Surco",
+      "comment": "Necesitaba un auto para ir a Paracas con mi familia. Encontré un SUV en MOVEO por S/120 el día — la mitad que en las agencias. El dueño fue puntual, el auto impecable y el proceso, súper seguro.",
+      "rating": "⭐ 4.9",
+      "button": "Ver más"
+    },
+    "miguel": {
+      "name": "Miguel T.",
+      "role": "Diseñador Freelance, Barranco",
+      "comment": "Como freelance, no puedo tener auto propio. Con MOVEO alquilo por horas cuando tengo reuniones fuera de casa. Es más barato, más flexible y más humano que cualquier app de renta tradicional.",
+      "rating": "⭐ 5.0",
+      "button": "Ver más"
+    }
+  },
+
+  "faq": {
+    "title": "Respondemos a tus preguntas",
+    "tabs": {
+      "general": "General",
+      "owners": "Propietarios",
+      "renters": "Inquilinos"
+    },
+    "general": {
+      "q1": {
+        "question": "¿Es seguro alquilar mi auto a un desconocido?",
+        "answer": "¡Absolutamente! Todos los usuarios son verificados con DNI, selfie y antecedentes. Además, incluimos seguro obligatorio, checklist digital al entregar/devolver el auto, y soporte 24/7. Tu auto está protegido."
+      },
+      "q2": {
+        "question": "¿Cuánto gano si alquilo mi auto?",
+        "answer": "El ingreso depende de la tarifa que establezcas por hora, día o semana. Moveo te muestra un estimado de ganancias antes de publicar tu vehículo, y recibirás el pago automáticamente después de cada alquiler."
+      },
+      "q3": {
+        "question": "¿Qué pasa si el auto se daña?",
+        "answer": "Moveo ofrece protección para ambos, propietario e inquilino. Si ocurre algún daño, sigue nuestro protocolo de reporte dentro de las 24 horas y el equipo de soporte te guiará en el proceso de reclamación y cobertura."
+      }
+    },
+    "owners": {
+      "q1": {
+        "question": "¿Cómo registro mi vehículo?",
+        "answer": "Ingresa los datos de tu auto (marca, modelo, año), sube fotos y define disponibilidad. Todo el proceso se completa en minutos."
+      },
+      "q2": {
+        "question": "¿Cómo recibo los pagos de los alquileres?",
+        "answer": "Los pagos se procesan automáticamente a tu cuenta bancaria registrada tras cada alquiler completado."
+      },
+      "q3": {
+        "question": "¿Qué debo hacer si un inquilino no cuida mi auto?",
+        "answer": "Moveo tiene un sistema de evaluación y reportes. Notifica cualquier incidente dentro de las 24 horas y nuestro equipo gestionará el soporte y posibles compensaciones."
+      }
+    },
+    "renters": {
+      "q1": {
+        "question": "¿Cómo busco un auto?",
+        "answer": "Utiliza filtros por ubicación, tipo de vehículo y disponibilidad para encontrar el auto que mejor se adapte a tu viaje."
+      },
+      "q2": {
+        "question": "¿Tengo que conocer al dueño en persona?",
+        "answer": "No es necesario. El sistema de mensajería permite coordinar todo sin contacto presencial."
+      },
+      "q3": {
+        "question": "¿Qué pasa si necesito cancelar una reserva?",
+        "answer": "Puedes cancelar siguiendo las políticas de Moveo según el tipo de vehículo y la tarifa seleccionada. El reembolso se procesa automáticamente si aplica."
+      }
+    }
+  },
+
+  "footer": {
+    "address": "Av. Principal 123, Lima, Perú",
+    "links": {
+      "home": "Inicio",
+      "about": "Acerca de",
+      "services": "Servicios",
+      "contact": "Contacto",
+      "testimonials": "Testimonios"
+    },
+    "brand": "MOVEO"
+  }
+}

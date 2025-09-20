@@ -1,0 +1,181 @@
+{
+  "nav": {
+    "about": "About",
+    "services": "Services",
+    "testimonials": "Testimonials",
+    "contact": "Contact Us"
+  },
+
+  "hero": {
+    "title": "Find cars to travel comfortably",
+    "subtitle": "A good place for your trip starts at Moveo, with unique vehicles for all types of destinations.",
+    "button": "Explore now"
+  },
+
+  "intro": {
+    "title": "What is Moveo?",
+    "description": "MOVEO is a digital platform that connects car owners who want to generate income with people who need a vehicle for hours, days or weeks."
+  },
+
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Discover how Moveo transforms urban mobility",
+    "rental": {
+      "title": "Rent a Car",
+      "description": "Find the perfect vehicle for your trip. Lower prices than traditional agencies, 24/7 availability and 100% digital process.",
+      "feature1": "Book in less than 5 minutes",
+      "feature2": "Verified and safe vehicles",
+      "feature3": "Prices up to 40% lower",
+      "feature4": "Flexibility by hours, days or weeks",
+      "button": "Search Cars"
+    },
+    "register": {
+      "title": "Register your Car",
+      "description": "Turn your car into a source of passive income. No initial investment, with insurance included and full support.",
+      "feature1": "Registration in just 3 minutes",
+      "feature2": "Earn up to 35% more income",
+      "feature3": "Verified and reliable users",
+      "feature4": "Full insurance and protection",
+      "button": "Register Car"
+    }
+  },
+
+  "zigzag": {
+    "section1": {
+      "title": "Your mobility needs solved in minutes",
+      "feature1": "No initial investments",
+      "feature2": "Lower prices than traditional agencies",
+      "feature3": "Guaranteed security for both parties",
+      "feature4": "Everything managed from your phone",
+      "button": "Learn more"
+    },
+    "section2": {
+      "title": "How does Moveo register your car?",
+      "step1": "Register your car in 3 minutes (brand, model, year, photos, availability).",
+      "step2": "Set your price per hour, day or week.",
+      "step3": "Receive requests from verified renters",
+      "step4": "Hand over the keys (with security protocol and digital checklist).",
+      "step5": "Make money without lifting a finger. We handle billing and protection.",
+      "button": "Learn more"
+    },
+    "section3": {
+      "title": "How Moveo solves your problem of not having a car",
+      "step1": "Search for cars near you by date, model, price or features.",
+      "step2": "Filter by ratings, reviews and availability.",
+      "step3": "Book with one click and pay securely.",
+      "step4": "Pick up the car at the agreed location (with checklist and delivery photos).",
+      "step5": "Return and rate. Done!",
+      "button": "Learn more"
+    }
+  },
+
+  "impact": {
+    "title": "Our impact",
+    "stat1": {
+      "number": "+500",
+      "text": "Cars registered by owners in Metropolitan Lima"
+    },
+    "stat2": {
+      "number": "+2,000",
+      "text": "reservations completed with satisfaction greater than 4.7/5"
+    },
+    "stat3": {
+      "number": "+35%",
+      "text": "average passive income for active owners"
+    },
+    "stat4": {
+      "number": "-40%",
+      "text": "in rental costs vs traditional rental agencies"
+    },
+    "button": "View our services"
+  },
+
+  "testimonials": {
+    "title": "Our testimonials",
+    "subtitle": "Meet the experience of those who already enjoy Moveo.",
+    "carlos": {
+      "name": "Carlos R.",
+      "role": "Hyundai i10 Owner, San Miguel",
+      "comment": "I rented my car just two weekends a month and already covered the annual insurance. Without leaving home! MOVEO gave me peace of mind, support and real profits.",
+      "rating": "⭐ 5.0",
+      "button": "Learn more"
+    },
+    "valeria": {
+      "name": "Valeria M.",
+      "role": "Renter, Surco",
+      "comment": "I needed a car to go to Paracas with my family. I found an SUV on MOVEO for S/120 per day — half the price of agencies. The owner was punctual, the car was spotless and the process was super safe.",
+      "rating": "⭐ 4.9",
+      "button": "Learn more"
+    },
+    "miguel": {
+      "name": "Miguel T.",
+      "role": "Freelance Designer, Barranco",
+      "comment": "As a freelancer, I can't own a car. With MOVEO I rent by the hour when I have meetings outside the house. It's cheaper, more flexible and more human than any traditional rental app.",
+      "rating": "⭐ 5.0",
+      "button": "Learn more"
+    }
+  },
+
+  "faq": {
+    "title": "We answer your questions",
+    "tabs": {
+      "general": "General",
+      "owners": "Owners",
+      "renters": "Renters"
+    },
+    "general": {
+      "q1": {
+        "question": "Is it safe to rent my car to a stranger?",
+        "answer": "Absolutely! All users are verified with ID, selfie and background checks. We also include mandatory insurance, digital checklist when delivering/returning the car, and 24/7 support. Your car is protected."
+      },
+      "q2": {
+        "question": "How much do I earn if I rent my car?",
+        "answer": "Income depends on the rate you set per hour, day or week. Moveo shows you an estimated earnings before publishing your vehicle, and you will receive payment automatically after each rental."
+      },
+      "q3": {
+        "question": "What happens if the car is damaged?",
+        "answer": "Moveo offers protection for both owner and tenant. If any damage occurs, follow our reporting protocol within 24 hours and the support team will guide you through the claims and coverage process."
+      }
+    },
+    "owners": {
+      "q1": {
+        "question": "How do I register my vehicle?",
+        "answer": "Enter your car details (make, model, year), upload photos and set availability. The entire process is completed in minutes."
+      },
+      "q2": {
+        "question": "How do I receive rental payments?",
+        "answer": "Payments are automatically processed to your registered bank account after each completed rental."
+      },
+      "q3": {
+        "question": "What should I do if a tenant doesn't take care of my car?",
+        "answer": "Moveo has an evaluation and reporting system. Report any incident within 24 hours and our team will manage support and possible compensation."
+      }
+    },
+    "renters": {
+      "q1": {
+        "question": "How do I search for a car?",
+        "answer": "Use filters by location, vehicle type and availability to find the car that best suits your trip."
+      },
+      "q2": {
+        "question": "Do I have to meet the owner in person?",
+        "answer": "It's not necessary. The messaging system allows you to coordinate everything without face-to-face contact."
+      },
+      "q3": {
+        "question": "What happens if I need to cancel a reservation?",
+        "answer": "You can cancel following Moveo's policies depending on the vehicle type and selected rate. Refund is processed automatically if applicable."
+      }
+    }
+  },
+
+  "footer": {
+    "address": "Av. Principal 123, Lima, Peru",
+    "links": {
+      "home": "Home",
+      "about": "About Us",
+      "services": "Services",
+      "contact": "Contact",
+      "testimonials": "Testimonials"
+    },
+    "brand": "MOVEO"
+  }
+}

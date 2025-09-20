@@ -6,12 +6,14 @@
     <title>Moveo - Alquiler de autos</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="src/styles/style.css">
+    <script src="src/js/i18n.js" defer></script>
+    <script src="src/js/lang-toggle.js" defer></script>
     <script src="src/js/faq.js" defer></script>
     <script src="src/js/animations.js" defer></script>
 </head>
 <body>
-    <!-- Top Navigation Bar -->
-    <header class="navbar" id="top-navbar">
+<!-- Top Navigation Bar -->
+<header class="navbar" id="top-navbar">
     <nav class="navbar__container">
         <div class="navbar__logo">
             <a href="#">
@@ -19,10 +21,10 @@
             </a>
         </div>
         <ul class="navbar__navlinks">
-            <li><a href="#intro" class="navbar__link">Acerca de</a></li>
-            <li><a href="#services" class="navbar__link">Servicios</a></li>
-            <li><a href="#testimonials-section" class="navbar__link">Testimonios</a></li>
-            <li><a href="#faq" class="navbar__link">Contáctanos</a></li>
+            <li><a href="#intro" class="navbar__link" data-i18n="nav.about">Acerca de</a></li>
+            <li><a href="#services" class="navbar__link" data-i18n="nav.services">Servicios</a></li>
+            <li><a href="#testimonials-section" class="navbar__link" data-i18n="nav.testimonials">Testimonios</a></li>
+            <li><a href="#faq" class="navbar__link" data-i18n="nav.contact">Contáctanos</a></li>
         </ul>
         <div class="navbar__mobile">
             <button class="navbar__hamburger" aria-label="Menú">
@@ -39,38 +41,38 @@
 
 
 
-    <main>
-        <!-- Hero Section -->
-        <section class="hero" id="hero-section">
-    <!-- Imagen de fondo -->
-   <div class="hero__background">
-    <img src="src/assets/toyota.png" alt="Fondo Hero" class="hero__img">
-    <div class="hero__overlay"></div>
-</div>
-    <div class="hero__content">
-        <div class="hero__text">
-            <h1>Encuentra autos para viajar cómodo</h1>
-            <p>Un buen lugar para tu viaje comienza en Moveo, con vehículos únicos para todo tipo de destinos.</p>
-            <a href="#" class="hero__cta">Explora ahora</a>
+<main>
+    <!-- Hero Section -->
+    <section class="hero" id="hero-section">
+        <!-- Imagen de fondo -->
+        <div class="hero__background">
+            <img src="src/assets/toyota.png" alt="Fondo Hero" class="hero__img">
+            <div class="hero__overlay"></div>
         </div>
-    </div>
-</section>
+        <div class="hero__content">
+            <div class="hero__text">
+                <h1 data-i18n="hero.title">Encuentra autos para viajar cómodo</h1>
+                <p data-i18n="hero.subtitle">Un buen lugar para tu viaje comienza en Moveo, con vehículos únicos para todo tipo de destinos.</p>
+                <a href="#" class="hero__cta" data-i18n="hero.button">Explora ahora</a>
+            </div>
+        </div>
+    </section>
 
     <section class="intro-moveo" id="intro">
-    <div class="intro-moveo-content">
-        <h2>¿Qué es Moveo?</h2>
-        <p>MOVEO es una plataforma digital que conecta a dueños de autos que quieren generar ingresos con personas que necesitan un vehículo por horas, días o semanas.</p>
-    </div>
-</section>
+        <div class="intro-moveo-content">
+            <h2 data-i18n="intro.title">¿Qué es Moveo?</h2>
+            <p data-i18n="intro.description">MOVEO es una plataforma digital que conecta a dueños de autos que quieren generar ingresos con personas que necesitan un vehículo por horas, días o semanas.</p>
+        </div>
+    </section>
 
     <!-- Sección de Servicios -->
     <section class="services" id="services">
         <div class="services__container">
             <div class="services__header">
-                <h2 class="services__title">Nuestros Servicios</h2>
-                <p class="services__subtitle">Descubre cómo Moveo transforma la movilidad urbana</p>
+                <h2 class="services__title" data-i18n="services.title">Nuestros Servicios</h2>
+                <p class="services__subtitle" data-i18n="services.subtitle">Descubre cómo Moveo transforma la movilidad urbana</p>
             </div>
-            
+
             <div class="services__grid">
                 <!-- Servicio para Arrendatarios -->
                 <div class="service-card">
@@ -78,18 +80,18 @@
                         <img src="src/assets/keys.jpg" alt="Alquiler de autos" class="service-card__img">
                     </div>
                     <div class="service-card__content">
-                        <h3 class="service-card__title">Alquila un Auto</h3>
-                        <p class="service-card__description">
-                            Encuentra el vehículo perfecto para tu viaje. Precios más bajos que las agencias tradicionales, 
+                        <h3 class="service-card__title" data-i18n="services.rental.title">Alquila un Auto</h3>
+                        <p class="service-card__description" data-i18n="services.rental.description">
+                            Encuentra el vehículo perfecto para tu viaje. Precios más bajos que las agencias tradicionales,
                             disponibilidad 24/7 y proceso 100% digital.
                         </p>
                         <ul class="service-card__features">
-                            <li>Reserva en menos de 5 minutos</li>
-                            <li>Vehículos verificados y seguros</li>
-                            <li>Precios hasta 40% más bajos</li>
-                            <li>Flexibilidad por horas, días o semanas</li>
+                            <li data-i18n="services.rental.feature1">Reserva en menos de 5 minutos</li>
+                            <li data-i18n="services.rental.feature2">Vehículos verificados y seguros</li>
+                            <li data-i18n="services.rental.feature3">Precios hasta 40% más bajos</li>
+                            <li data-i18n="services.rental.feature4">Flexibilidad por horas, días o semanas</li>
                         </ul>
-                        <a href="#" class="service-card__btn">Buscar Autos</a>
+                        <a href="#" class="service-card__btn" data-i18n="services.rental.button">Buscar Autos</a>
                     </div>
                 </div>
 
@@ -99,18 +101,18 @@
                         <img src="src/assets/calendario.png" alt="Registrar auto" class="service-card__img">
                     </div>
                     <div class="service-card__content">
-                        <h3 class="service-card__title">Registra tu Auto</h3>
-                        <p class="service-card__description">
-                            Convierte tu auto en una fuente de ingresos pasivos. Sin inversión inicial, 
+                        <h3 class="service-card__title" data-i18n="services.register.title">Registra tu Auto</h3>
+                        <p class="service-card__description" data-i18n="services.register.description">
+                            Convierte tu auto en una fuente de ingresos pasivos. Sin inversión inicial,
                             con seguro incluido y soporte completo.
                         </p>
                         <ul class="service-card__features">
-                            <li>Registro en solo 3 minutos</li>
-                            <li>Gana hasta 35% más en ingresos</li>
-                            <li>Usuarios verificados y confiables</li>
-                            <li>Seguro y protección total</li>
+                            <li data-i18n="services.register.feature1">Registro en solo 3 minutos</li>
+                            <li data-i18n="services.register.feature2">Gana hasta 35% más en ingresos</li>
+                            <li data-i18n="services.register.feature3">Usuarios verificados y confiables</li>
+                            <li data-i18n="services.register.feature4">Seguro y protección total</li>
                         </ul>
-                        <a href="#" class="service-card__btn">Registrar Auto</a>
+                        <a href="#" class="service-card__btn" data-i18n="services.register.button">Registrar Auto</a>
                     </div>
                 </div>
             </div>
@@ -126,265 +128,265 @@
                 <img src="src/assets/mistubishi.jpg" alt="Mistsu">
             </div>
             <div class="zigzag-content right">
-                <h2>Tus necesidades de movilidad resueltas en minutos</h2>
+                <h2 data-i18n="zigzag.section1.title">Tus necesidades de movilidad resueltas en minutos</h2>
                 <ul>
-            <li>Sin inversiones iniciales</li>
-            <li>Precios más bajos que las agencias tradicionales</li>
-            <li>Seguridad garantizada para ambas partes</li>
-            <li>Todo gestionado desde tu celular</li>
-        </ul>
-                <a href="#" class="btn">Ver más</a>
+                    <li data-i18n="zigzag.section1.feature1">Sin inversiones iniciales</li>
+                    <li data-i18n="zigzag.section1.feature2">Precios más bajos que las agencias tradicionales</li>
+                    <li data-i18n="zigzag.section1.feature3">Seguridad garantizada para ambas partes</li>
+                    <li data-i18n="zigzag.section1.feature4">Todo gestionado desde tu celular</li>
+                </ul>
+                <a href="#" class="btn" data-i18n="zigzag.section1.button">Ver más</a>
             </div>
         </div>
 
         <!-- Bloque 3: Pregunta a la izquierda, imagen a la derecha -->
         <div class="zigzag-item">
             <div class="zigzag-content left">
-                <h2>¿Cómo Moveo registra tu auto?</h2>
-        <ol class="steps-list">
-            <li>Registra tu auto en 3 minutos (marca, modelo, año, fotos, disponibilidad).</li>
-            <li>Define tu precio por hora, día o semana.</li>
-            <li>Recibe solicitudes de arrendatarios verificados</li>
-            <li>Entrega las llaves (con protocolo de seguridad y checklist digital).</li>
-            <li>Gana dinero sin mover un dedo. Nosotros nos encargamos del cobro y la protección.</li>
-        </ol>
-                <a href="#" class="btn">Ver más</a>
+                <h2 data-i18n="zigzag.section2.title">¿Cómo Moveo registra tu auto?</h2>
+                <ol class="steps-list">
+                    <li data-i18n="zigzag.section2.step1">Registra tu auto en 3 minutos (marca, modelo, año, fotos, disponibilidad).</li>
+                    <li data-i18n="zigzag.section2.step2">Define tu precio por hora, día o semana.</li>
+                    <li data-i18n="zigzag.section2.step3">Recibe solicitudes de arrendatarios verificados</li>
+                    <li data-i18n="zigzag.section2.step4">Entrega las llaves (con protocolo de seguridad y checklist digital).</li>
+                    <li data-i18n="zigzag.section2.step5">Gana dinero sin mover un dedo. Nosotros nos encargamos del cobro y la protección.</li>
+                </ol>
+                <a href="#" class="btn" data-i18n="zigzag.section2.button">Ver más</a>
             </div>
             <div class="zigzag-img right">
                 <img src="src/assets/mazda.avif" alt="mazda">
             </div>
         </div>
 
-        <!-- Bloque 4: Imagen a la izquierda, texto + botón a la derecha --><!-- Bloque 4: Imagen a la izquierda, texto + botón a la derecha -->
+        <!-- Bloque 4: Imagen a la izquierda, texto + botón a la derecha -->
         <div class="zigzag-item">
             <div class="zigzag-img left">
                 <img src="src/assets/keys.jpg" alt="Keys">
             </div>
-         <div class="zigzag-content right">
-            <h2>Cómo Moveo resuelve tu problema de no tener auto</h2>
-        <ul>
-            <li>Busca autos cerca de ti por fecha, modelo, precio o características.</li>
-            <li>Filtra por calificaciones, reseñas y disponibilidad.</li>
-            <li>Reserva con un clic y paga de forma segura.</li>
-            <li>Recoge el auto en el lugar acordado (con checklist y fotos de entrega).</li>
-            <li>Devuelve y califica. ¡Listo!</li>
+            <div class="zigzag-content right">
+                <h2 data-i18n="zigzag.section3.title">Cómo Moveo resuelve tu problema de no tener auto</h2>
+                <ul>
+                    <li data-i18n="zigzag.section3.step1">Busca autos cerca de ti por fecha, modelo, precio o características.</li>
+                    <li data-i18n="zigzag.section3.step2">Filtra por calificaciones, reseñas y disponibilidad.</li>
+                    <li data-i18n="zigzag.section3.step3">Reserva con un clic y paga de forma segura.</li>
+                    <li data-i18n="zigzag.section3.step4">Recoge el auto en el lugar acordado (con checklist y fotos de entrega).</li>
+                    <li data-i18n="zigzag.section3.step5">Devuelve y califica. ¡Listo!</li>
 
-        </ul>
-        <a href="#" class="btn">Ver más</a>
-        </div>
+                </ul>
+                <a href="#" class="btn" data-i18n="zigzag.section3.button">Ver más</a>
+            </div>
         </div>
     </section>
 
-        <!-- Nuestro impacto -->
-        <section class="impact" id="impact-section">
-            <div class="impact__header">
-                <h2 class="impact__title">Nuestro impacto</h2>
-            </div>
-
-            <div class="impact__grid">
-                <div class="impact__card">
-                <span class="impact__number">+500</span>
-                <p class="impact__text">Autos registrados por dueños en Lima Metropolitana</p>
-            </div>
-        <div class="impact__card">
-            <span class="impact__number">+2,000</span>
-            <p class="impact__text">reservas completadas con satisfacción mayor a 4.7/5</p>
+    <!-- Nuestro impacto -->
+    <section class="impact" id="impact-section">
+        <div class="impact__header">
+            <h2 class="impact__title" data-i18n="impact.title">Nuestro impacto</h2>
         </div>
-        <div class="impact__card">
-            <span class="impact__number">+35%</span>
-            <p class="impact__text">de ingresos pasivos promedio para dueños activos</p>
-        </div>
-        <div class="impact__card">
-            <span class="impact__number">-40%</span>
-            <p class="impact__text">en costos de alquiler vs agencias tradicionales arrenderas</p>
-        </div>
-    </div>
 
-    <div class="impact__cta">
-        <a href="#" class="btn">Ver nuestros servicios</a>
-    </div>
-</section>
-
-<!-- Nuestros Testimonios -->
-<section class="testimonials" id="testimonials-section">
-    <div class="testimonials__header">
-        <h2 class="testimonials__title">Nuestros testimonios</h2>
-        <p class="testimonials__subtitle">
-            Conoce la experiencia de quienes ya disfrutan de Moveo.
-        </p>
-    </div>
-
-    <div class="testimonials__grid">
-        <!-- Testimonio 1 -->
-        <div class="testimonial-card">
-            <div class="testimonial-card__top">
-                <img src="src/assets/user1.jpg" alt="Usuario 1" class="testimonial-card__img">
-                <div class="testimonial-card__info">
-                    <span class="testimonial-card__name">Carlos R.</span>
-                    <span class="testimonial-card__role">Dueño de Hyundai i10, San Miguel</span>
-                </div>
+        <div class="impact__grid">
+            <div class="impact__card">
+                <span class="impact__number" data-i18n="impact.stat1.number">+500</span>
+                <p class="impact__text" data-i18n="impact.stat1.text">Autos registrados por dueños en Lima Metropolitana</p>
             </div>
-            <p class="testimonial-card__comment">
-                "Alquilé mi auto solo dos fines de semana al mes y ya cubrí el seguro anual. 
-                ¡Sin moverme de casa! MOVEO me dio tranquilidad, soporte y ganancias reales.”
+            <div class="impact__card">
+                <span class="impact__number" data-i18n="impact.stat2.number">+2,000</span>
+                <p class="impact__text" data-i18n="impact.stat2.text">reservas completadas con satisfacción mayor a 4.7/5</p>
+            </div>
+            <div class="impact__card">
+                <span class="impact__number" data-i18n="impact.stat3.number">+35%</span>
+                <p class="impact__text" data-i18n="impact.stat3.text">de ingresos pasivos promedio para dueños activos</p>
+            </div>
+            <div class="impact__card">
+                <span class="impact__number" data-i18n="impact.stat4.number">-40%</span>
+                <p class="impact__text" data-i18n="impact.stat4.text">en costos de alquiler vs agencias tradicionales arrenderas</p>
+            </div>
+        </div>
+
+        <div class="impact__cta">
+            <a href="#" class="btn" data-i18n="impact.button">Ver nuestros servicios</a>
+        </div>
+    </section>
+
+    <!-- Nuestros Testimonios -->
+    <section class="testimonials" id="testimonials-section">
+        <div class="testimonials__header">
+            <h2 class="testimonials__title" data-i18n="testimonials.title">Nuestros testimonios</h2>
+            <p class="testimonials__subtitle" data-i18n="testimonials.subtitle">
+                Conoce la experiencia de quienes ya disfrutan de Moveo.
             </p>
-            <div class="testimonial-card__bottom">
-                <span class="testimonial-card__rating">⭐ 5.0</span>
-                <a href="#" class="testimonial-card__btn">Ver más</a>
-            </div>
         </div>
 
-        <!-- Testimonio 2 -->
-        <div class="testimonial-card">
-            <div class="testimonial-card__top">
-                <img src="src/assets/user2.jpg" alt="Usuario 2" class="testimonial-card__img">
-                <div class="testimonial-card__info">
-                    <span class="testimonial-card__name">Valeria M.</span>
-                    <span class="testimonial-card__role">Arredentaria, Surco</span>
+        <div class="testimonials__grid">
+            <!-- Testimonio 1 -->
+            <div class="testimonial-card">
+                <div class="testimonial-card__top">
+                    <img src="src/assets/user1.jpg" alt="Usuario 1" class="testimonial-card__img">
+                    <div class="testimonial-card__info">
+                        <span class="testimonial-card__name">Carlos R.</span>
+                        <span class="testimonial-card__role">Dueño de Hyundai i10, San Miguel</span>
+                    </div>
+                </div>
+                <p class="testimonial-card__comment">
+                    "Alquilé mi auto solo dos fines de semana al mes y ya cubrí el seguro anual.
+                    ¡Sin moverme de casa! MOVEO me dio tranquilidad, soporte y ganancias reales.”
+                </p>
+                <div class="testimonial-card__bottom">
+                    <span class="testimonial-card__rating">⭐ 5.0</span>
+                    <a href="#" class="testimonial-card__btn">Ver más</a>
                 </div>
             </div>
-            <p class="testimonial-card__comment">
-                Necesitaba un auto para ir a Paracas con mi familia. 
-                Encontré un SUV en MOVEO por S/120 el día — la mitad que en las agencias. 
-                El dueño fue puntual, el auto impecable y el proceso, súper seguro.
-            </p>
-            <div class="testimonial-card__bottom">
-                <span class="testimonial-card__rating">⭐ 4.9</span>
-                <a href="#" class="testimonial-card__btn">Ver más</a>
-            </div>
-        </div>
 
-        <!-- Testimonio 3 -->
-        <div class="testimonial-card">
-            <div class="testimonial-card__top">
-                <img src="src/assets/user3.jpeg" alt="Usuario 3" class="testimonial-card__img">
-                <div class="testimonial-card__info">
-                    <span class="testimonial-card__name">Miguel T.</span>
-                    <span class="testimonial-card__role">Diseñador Freelance, Barranco</span>
+            <!-- Testimonio 2 -->
+            <div class="testimonial-card">
+                <div class="testimonial-card__top">
+                    <img src="src/assets/user2.jpg" alt="Usuario 2" class="testimonial-card__img">
+                    <div class="testimonial-card__info">
+                        <span class="testimonial-card__name" data-i18n="testimonials.valeria.name">Valeria M.</span>
+                        <span class="testimonial-card__role" data-i18n="testimonials.valeria.role">Arredentaria, Surco</span>
+                    </div>
+                </div>
+                <p class="testimonial-card__comment" data-i18n="testimonials.valeria.comment">
+                    Necesitaba un auto para ir a Paracas con mi familia.
+                    Encontré un SUV en MOVEO por S/120 el día — la mitad que en las agencias.
+                    El dueño fue puntual, el auto impecable y el proceso, súper seguro.
+                </p>
+                <div class="testimonial-card__bottom">
+                    <span class="testimonial-card__rating" data-i18n="testimonials.valeria.rating">⭐ 4.9</span>
+                    <a href="#" class="testimonial-card__btn" data-i18n="testimonials.valeria.button">Ver más</a>
                 </div>
             </div>
-            <p class="testimonial-card__comment">
-                Como freelance, no puedo tener auto propio. 
-                Con MOVEO alquilo por horas cuando tengo reuniones fuera de casa. 
-                Es más barato, más flexible y más humano que cualquier app de renta tradicional.
-            </p>
-            <div class="testimonial-card__bottom">
-                <span class="testimonial-card__rating">⭐ 5.0</span>
-                <a href="#" class="testimonial-card__btn">Ver más</a>
-            </div>
-        </div>
-    </div>
-</section>
 
-
-<section class="faq" id="faq">
-    <h2 class="faq__title">Respondemos a tus preguntas</h2>
-
-    <!-- Tabs -->
-    <div class="faq__tabs">
-        <button class="faq__tab active" data-tab="general">General</button>
-        <button class="faq__tab" data-tab="propietarios">Propietarios</button>
-        <button class="faq__tab" data-tab="inquilinos">Inquilinos</button>
-    </div>
-
-    <!-- Contenido de las pestañas -->
-    <div class="faq__content">
-        <div class="faq__tab-content active" id="general">
-            <div class="faq__item">
-                <button class="faq__question" aria-expanded="false">¿Es seguro alquilar mi auto a un desconocido?</button>
-                <div class="faq__answer" >
-                    ¡Absolutamente! Todos los usuarios son verificados con DNI, selfie y antecedentes. Además, incluimos seguro obligatorio, checklist digital al entregar/devolver el auto, y soporte 24/7. Tu auto está protegido.
+            <!-- Testimonio 3 -->
+            <div class="testimonial-card">
+                <div class="testimonial-card__top">
+                    <img src="src/assets/user3.jpeg" alt="Usuario 3" class="testimonial-card__img">
+                    <div class="testimonial-card__info">
+                        <span class="testimonial-card__name" data-i18n="testimonials.miguel.name">Miguel T.</span>
+                        <span class="testimonial-card__role" data-i18n="testimonials.miguel.role">Diseñador Freelance, Barranco</span>
+                    </div>
                 </div>
-            </div>
-            <div class="faq__item">
-                <button class="faq__question" aria-expanded="false">¿Cuánto gano si alquilo mi auto?</button>
-                <div class="faq__answer">
-                    El ingreso depende de la tarifa que establezcas por hora, día o semana. Moveo te muestra un estimado de ganancias antes de publicar tu vehículo, y recibirás el pago automáticamente después de cada alquiler.
-                </div>
-            </div>
-            <div class="faq__item">
-                <button class="faq__question" aria-expanded="false">¿Qué pasa si el auto se daña?</button>
-                <div class="faq__answer" >
-                    Moveo ofrece protección para ambos, propietario e inquilino. Si ocurre algún daño, sigue nuestro protocolo de reporte dentro de las 24 horas y el equipo de soporte te guiará en el proceso de reclamación y cobertura.
+                <p class="testimonial-card__comment" data-i18n="testimonials.miguel.comment">
+                    Como freelance, no puedo tener auto propio.
+                    Con MOVEO alquilo por horas cuando tengo reuniones fuera de casa.
+                    Es más barato, más flexible y más humano que cualquier app de renta tradicional.
+                </p>
+                <div class="testimonial-card__bottom">
+                    <span class="testimonial-card__rating" data-i18n="testimonials.miguel.rating">⭐ 5.0</span>
+                    <a href="#" class="testimonial-card__btn" data-i18n="testimonials.miguel.button">Ver más</a>
                 </div>
             </div>
         </div>
+    </section>
 
-        <div class="faq__tab-content" id="propietarios">
-            <div class="faq__item">
-                <button class="faq__question" aria-expanded="false">¿Cómo registro mi vehículo?</button>
-                <div class="faq__answer">
-                    Ingresa los datos de tu auto (marca, modelo, año), sube fotos y define disponibilidad. Todo el proceso se completa en minutos.
+
+    <section class="faq" id="faq">
+        <h2 class="faq__title" data-i18n="faq.title">Respondemos a tus preguntas</h2>
+
+        <!-- Tabs -->
+        <div class="faq__tabs">
+            <button class="faq__tab active" data-tab="general" data-i18n="faq.tabs.general">General</button>
+            <button class="faq__tab" data-tab="propietarios" data-i18n="faq.tabs.owners">Propietarios</button>
+            <button class="faq__tab" data-tab="inquilinos" data-i18n="faq.tabs.renters">Inquilinos</button>
+        </div>
+
+        <!-- Contenido de las pestañas -->
+        <div class="faq__content">
+            <div class="faq__tab-content active" id="general">
+                <div class="faq__item">
+                    <button class="faq__question" aria-expanded="false" data-i18n="faq.general.q1.question">¿Es seguro alquilar mi auto a un desconocido?</button>
+                    <div class="faq__answer" data-i18n="faq.general.q1.answer">
+                        ¡Absolutamente! Todos los usuarios son verificados con DNI, selfie y antecedentes. Además, incluimos seguro obligatorio, checklist digital al entregar/devolver el auto, y soporte 24/7. Tu auto está protegido.
+                    </div>
+                </div>
+                <div class="faq__item">
+                    <button class="faq__question" aria-expanded="false" data-i18n="faq.general.q2.question">¿Cuánto gano si alquilo mi auto?</button>
+                    <div class="faq__answer" data-i18n="faq.general.q2.answer">
+                        El ingreso depende de la tarifa que establezcas por hora, día o semana. Moveo te muestra un estimado de ganancias antes de publicar tu vehículo, y recibirás el pago automáticamente después de cada alquiler.
+                    </div>
+                </div>
+                <div class="faq__item">
+                    <button class="faq__question" aria-expanded="false" data-i18n="faq.general.q3.question">¿Qué pasa si el auto se daña?</button>
+                    <div class="faq__answer" data-i18n="faq.general.q3.answer">
+                        Moveo ofrece protección para ambos, propietario e inquilino. Si ocurre algún daño, sigue nuestro protocolo de reporte dentro de las 24 horas y el equipo de soporte te guiará en el proceso de reclamación y cobertura.
+                    </div>
                 </div>
             </div>
-            <div class="faq__item">
-                <button class="faq__question" aria-expanded="false">¿Cómo recibo los pagos de los alquileres?</button>
-                <div class="faq__answer">
-                    Los pagos se procesan automáticamente a tu cuenta bancaria registrada tras cada alquiler completado.
+
+            <div class="faq__tab-content" id="propietarios">
+                <div class="faq__item">
+                    <button class="faq__question" aria-expanded="false" data-i18n="faq.owners.q1.question">¿Cómo registro mi vehículo?</button>
+                    <div class="faq__answer" data-i18n="faq.owners.q1.answer">
+                        Ingresa los datos de tu auto (marca, modelo, año), sube fotos y define disponibilidad. Todo el proceso se completa en minutos.
+                    </div>
+                </div>
+                <div class="faq__item">
+                    <button class="faq__question" aria-expanded="false" data-i18n="faq.owners.q2.question">¿Cómo recibo los pagos de los alquileres?</button>
+                    <div class="faq__answer" data-i18n="faq.owners.q2.answer">
+                        Los pagos se procesan automáticamente a tu cuenta bancaria registrada tras cada alquiler completado.
+                    </div>
+                </div>
+                <div class="faq__item">
+                    <button class="faq__question" aria-expanded="false" data-i18n="faq.owners.q3.question">¿Qué debo hacer si un inquilino no cuida mi auto?</button>
+                    <div class="faq__answer" data-i18n="faq.owners.q3.answer">
+                        Moveo tiene un sistema de evaluación y reportes. Notifica cualquier incidente dentro de las 24 horas y nuestro equipo gestionará el soporte y posibles compensaciones.
+                    </div>
                 </div>
             </div>
-            <div class="faq__item">
-                <button class="faq__question" aria-expanded="false">¿Qué debo hacer si un inquilino no cuida mi auto?</button>
-                <div class="faq__answer" >
-                    Moveo tiene un sistema de evaluación y reportes. Notifica cualquier incidente dentro de las 24 horas y nuestro equipo gestionará el soporte y posibles compensaciones.
+
+            <div class="faq__tab-content" id="inquilinos">
+                <div class="faq__item">
+                    <button class="faq__question" aria-expanded="false" data-i18n="faq.renters.q1.question">¿Cómo busco un auto?</button>
+                    <div class="faq__answer" data-i18n="faq.renters.q1.answer">
+                        Utiliza filtros por ubicación, tipo de vehículo y disponibilidad para encontrar el auto que mejor se adapte a tu viaje.
+                    </div>
+                </div>
+                <div class="faq__item">
+                    <button class="faq__question" aria-expanded="false" data-i18n="faq.renters.q2.question">¿Tengo que conocer al dueño en persona?</button>
+                    <div class="faq__answer" data-i18n="faq.renters.q2.answer">
+                        No es necesario. El sistema de mensajería permite coordinar todo sin contacto presencial.
+                    </div>
+                </div>
+                <div class="faq__item">
+                    <button class="faq__question" aria-expanded="false" data-i18n="faq.renters.q3.question">¿Qué pasa si necesito cancelar una reserva?</button>
+                    <div class="faq__answer" data-i18n="faq.renters.q3.answer">
+                        Puedes cancelar siguiendo las políticas de Moveo según el tipo de vehículo y la tarifa seleccionada. El reembolso se procesa automáticamente si aplica.
+                    </div>
                 </div>
             </div>
         </div>
+    </section>
 
-        <div class="faq__tab-content" id="inquilinos">
-    <div class="faq__item">
-        <button class="faq__question" aria-expanded="false">¿Cómo busco un auto?</button>
-        <div class="faq__answer">
-            Utiliza filtros por ubicación, tipo de vehículo y disponibilidad para encontrar el auto que mejor se adapte a tu viaje.
+
+</main>
+
+<footer class="footer">
+    <div class="footer__content">
+        <!-- Iconos sociales -->
+        <div class="footer__socials">
+            <a href="#"><img src="src/assets/facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="src/assets/instagram.png" alt="Instagram"></a>
+            <a href="#"><img src="src/assets/yt.svg" alt="YouTube"></a>
+        </div>
+
+        <!-- Dirección -->
+        <div class="footer__address">
+            <p data-i18n="footer.address">Av. Principal 123, Lima, Perú</p>
+        </div>
+
+        <!-- Links a otras páginas -->
+        <div class="footer__links">
+            <a href="#hero-section" data-i18n="footer.links.home">Home</a>
+            <a href="#intro" data-i18n="footer.links.about">About Us</a>
+            <a href="#services" data-i18n="footer.links.services">Services</a>
+            <a href="#faq" data-i18n="footer.links.contact">Contacto</a>
+            <a href="#testimonials-section" data-i18n="footer.links.testimonials">Testimonios</a>
+        </div>
+
+        <!-- Logo en texto -->
+        <div class="footer__logo-text">
+            <p>MOVEO</p>
         </div>
     </div>
-    <div class="faq__item">
-        <button class="faq__question" aria-expanded="false">¿Tengo que conocer al dueño en persona?</button>
-        <div class="faq__answer">
-            No es necesario. El sistema de mensajería permite coordinar todo sin contacto presencial.
-        </div>
-    </div>
-    <div class="faq__item">
-        <button class="faq__question" aria-expanded="false">¿Qué pasa si necesito cancelar una reserva?</button>
-        <div class="faq__answer">
-            Puedes cancelar siguiendo las políticas de Moveo según el tipo de vehículo y la tarifa seleccionada. El reembolso se procesa automáticamente si aplica.
-        </div>
-    </div>
-</div>
-    </div>
-</section>
-
-
-    </main>
-
-    <footer class="footer">
-  <div class="footer__content">
-    <!-- Iconos sociales -->
-    <div class="footer__socials">
-      <a href="#"><img src="src/assets/facebook.png" alt="Facebook"></a>
-      <a href="#"><img src="src/assets/instagram.png" alt="Instagram"></a>
-      <a href="#"><img src="src/assets/yt.svg" alt="YouTube"></a>
-    </div>
-
-    <!-- Dirección -->
-    <div class="footer__address">
-      <p>Av. Principal 123, Lima, Perú</p>
-    </div>
-
-    <!-- Links a otras páginas -->
-  <div class="footer__links">
-    <a href="#hero-section">Home</a>
-    <a href="#intro">About Us</a>
-    <a href="#services">Services</a>
-    <a href="#faq">Contacto</a>
-    <a href="#testimonials-section">Testimonios</a>
-   </div>
-
-    <!-- Logo en texto -->
-    <div class="footer__logo-text">
-      <p>MOVEO</p>
-    </div>
-  </div>
 </footer>
 
 </body>
