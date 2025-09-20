@@ -1,9 +1,10 @@
 {
   "nav": {
     "about": "About",
-    "services": "Services",
+    "team": "Team",
+    "services": "Services", 
     "testimonials": "Testimonials",
-    "contact": "Contact Us"
+    "contact": "Contact"
   },
 
   "hero": {
@@ -15,6 +16,41 @@
   "intro": {
     "title": "What is Moveo?",
     "description": "MOVEO is a digital platform that connects car owners who want to generate income with people who need a vehicle for hours, days or weeks."
+  },
+
+  "team": {
+    "title": "Our Team",
+    "subtitle": "Meet the people behind Moveo",
+    "member1": {
+      "name": "Carlos Alejandro De la cruz Villareal",
+      "role": "CEO & Founder",
+      "code": "U20211c036",
+      "description": "Leads Moveo's strategic vision and oversees all company operations."
+    },
+    "member2": {
+      "name": "Franco Gabriel Huang Liu",
+      "role": "CTO",
+      "code": "U202310345",
+      "description": "Responsible for technological development and platform architecture."
+    },
+    "member3": {
+      "name": "Gianfranco Luna Morales",
+      "role": "Product Director",
+      "code": "U201824343",
+      "description": "In charge of user experience design and development of new functionalities."
+    },
+    "member4": {
+      "name": "Andreow Jomark Santiago Peña",
+      "role": "Marketing Director",
+      "code": "U202317362",
+      "description": "Leads growth strategies and user acquisition."
+    },
+    "member5": {
+      "name": "Sebastian Gabriel Zuñiga Calle",
+      "role": "Operations Director",
+      "code": "U20221b479",
+      "description": "Manages daily operations and customer service quality."
+    }
   },
 
   "services": {
