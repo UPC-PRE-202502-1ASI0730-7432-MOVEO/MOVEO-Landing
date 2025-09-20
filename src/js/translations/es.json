@@ -1,6 +1,7 @@
 {
   "nav": {
     "about": "Acerca de",
+    "team": "Equipo", 
     "services": "Servicios",
     "testimonials": "Testimonios",
     "contact": "Contáctanos"
@@ -15,6 +16,41 @@
   "intro": {
     "title": "¿Qué es Moveo?",
     "description": "MOVEO es una plataforma digital que conecta a dueños de autos que quieren generar ingresos con personas que necesitan un vehículo por horas, días o semanas."
+  },
+
+  "team": {
+    "title": "Nuestro Equipo",
+    "subtitle": "Conoce a las personas detrás de Moveo",
+    "member1": {
+      "name": "Carlos Alejandro De la cruz Villareal",
+      "role": "CEO & Fundador",
+      "code": "U20211c036",
+      "description": "Lidera la visión estratégica de Moveo y supervisa todas las operaciones de la empresa."
+    },
+    "member2": {
+      "name": "Franco Gabriel Huang Liu",
+      "role": "CTO",
+      "code": "U202310345",
+      "description": "Responsable del desarrollo tecnológico y la arquitectura de la plataforma."
+    },
+    "member3": {
+      "name": "Gianfranco Luna Morales",
+      "role": "Director de Producto",
+      "code": "U201824343",
+      "description": "Encargado del diseño de experiencia de usuario y desarrollo de nuevas funcionalidades."
+    },
+    "member4": {
+      "name": "Andreow Jomark Santiago Peña",
+      "role": "Director de Marketing",
+      "code": "U202317362",
+      "description": "Lidera las estrategias de crecimiento y adquisición de usuarios."
+    },
+    "member5": {
+      "name": "Sebastian Gabriel Zuñiga Calle",
+      "role": "Director de Operaciones",
+      "code": "U20221b479",
+      "description": "Gestiona las operaciones diarias y la calidad del servicio al cliente."
+    }
   },
 
   "services": {
